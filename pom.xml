@@ -5,7 +5,7 @@
 	<groupId>meeeeeee</groupId>
 	<artifactId>juqcf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 	<name>JUnitQuickCheckFun</name>
 
 	<dependencies>
@@ -30,8 +30,8 @@
 	</dependencies>
 
 	<build>
-	  <sourceDirectory>src/</sourceDirectory>
-	  <testSourceDirectory>src/test/</testSourceDirectory>
+	  <sourceDirectory>src/main/java</sourceDirectory>
+	  <testSourceDirectory>src/test/java</testSourceDirectory>
 	  <resources>
 	    <resource>
 	      <directory>src/main/resources</directory>
